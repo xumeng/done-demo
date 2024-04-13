@@ -5,13 +5,15 @@
 * 下载项目到本地
 
 ```
-git clone ``https://github.com/xumeng/done-demo.git
+git clone https://github.com/xumeng/done-demo.git
 ```
 
 * 进入项目目录并安装依赖
 
 ```
-yarn install` 或 `npm i 
+yarn install 
+或
+npm i 
 ```
 
 * 重命名 `.env.local.example` 为 `.env.local` 并修改配置:
@@ -43,5 +45,5 @@ npm run dev
 
 - **React+Next.js 一站式开发**
 - **Serverless**，Supabase + Vercel，省去单独部署服务和 DB 的工作
-- **轻业务逻辑，**基于 Supabase 的 Auth 实现完善的用户体系，采用 Trigger 同步用户详细数据
-- **shadcn-ui 响应式设计，**支持不同平台
+- **轻业务逻辑**，基于 Supabase 的 Auth 实现完善的用户体系，采用 Trigger 同步用户详细数据
+- **shadcn-ui 响应式设计**，支持不同平台
